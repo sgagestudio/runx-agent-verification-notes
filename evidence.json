@@ -1,0 +1,40 @@
+{
+  "summary": "Original public operator note explaining why runx governed execution, explicit policy boundaries, MCP parity, and queryable receipts are useful for reproducible agent engineering workflows.",
+  "observations": [
+    {
+      "claim_type": "public_runx_technical_note",
+      "public_url": "https://github.com/sgagestudio/runx-agent-verification-notes",
+      "detail": "Published an original developer-facing README rather than a star, screenshot, or bare link."
+    },
+    {
+      "runx_link_found": true,
+      "link": "https://github.com/runxhq/runx",
+      "detail": "The public artifact links directly to the upstream runx repository and to https://runx.ai."
+    },
+    {
+      "audience": "agent builders, automation operators, and maintainers evaluating governed execution",
+      "detail": "The note focuses on execution authority, receipts, MCP parity, and reproducible handoffs."
+    },
+    {
+      "venue": "GitHub public repository owned by sgagestudio",
+      "allowed": true,
+      "detail": "An original repository/README is an appropriate venue for a developer-facing technical note."
+    },
+    {
+      "source_surface": "runxhq/runx README.md",
+      "detail": "Reviewed the upstream quickstart statement pointing agents to runx.ai/SKILL.md, runx.ai/x, and receipt-return behavior."
+    },
+    {
+      "source_surface": "runxhq/runx AGENTS.md and architecture/reference docs",
+      "detail": "Reviewed separation between pure contracts/receipts and runtime filesystem/network/subprocess concerns, plus MCP routing through the normal kernel path."
+    },
+    {
+      "useful_takeaway": "governance_boundary",
+      "detail": "The note explains why refusing out-of-scope effects and avoiding hidden fallback logic matters for autonomous agents."
+    },
+    {
+      "useful_takeaway": "receipts_as_state",
+      "detail": "The note explains receipt history and bounded receipt.query as an operator-visible record rather than decorative logging."
+    }
+  ]
+}
